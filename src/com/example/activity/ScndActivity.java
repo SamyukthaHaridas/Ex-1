@@ -19,11 +19,11 @@ public class ScndActivity extends Activity {
 		result1 = (TextView) findViewById(R.id.text_3);
 		result2 = (TextView) findViewById(R.id.text4);
 		Typeface tfont = Typeface.createFromAsset(getAssets(),
-				"AlexBrush-Regular.ttf");
+				"SourceSansPro-BoldIt.otf");
 		Typeface t1font = Typeface.createFromAsset(getAssets(),
-				"DeliusSwashCaps-Regular.ttf");
+				"SourceSansPro-BlackIt.otf");
 		Typeface t2font = Typeface.createFromAsset(getAssets(),
-				"KaushanScript-Regular.otf");
+				"SourceSansPro-It.otf");
 		Intent i = getIntent();
 		String datafrmMain = i.getStringExtra("username");
 		result.setTypeface(tfont);

@@ -1,6 +1,8 @@
 package com.example.activity;
 
+import android.R;
 import android.support.v7.app.ActionBarActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -10,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.example.*;
 
 public class MainActivity extends ActionBarActivity {
 	Button helBut;
@@ -19,7 +22,7 @@ public class MainActivity extends ActionBarActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_list_item);
 		helBut = (Button) findViewById(R.id.b1);
 		textInput2 = (EditText) findViewById(R.id.text_2);
 		helBut.setOnClickListener(new View.OnClickListener() {

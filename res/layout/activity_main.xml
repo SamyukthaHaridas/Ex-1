@@ -15,18 +15,14 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="Click me" />
-    
+
     <EditText
-        android:id="@+id/text_2"
+        android:id="@+id/b11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/b1"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="17dp"
-        android:layout_marginRight="14dp"
-        android:ems="10" >
-
-        <requestFocus />
-    </EditText>
+        android:layout_marginTop="80dp"
+        android:ems="10" />
 
 </RelativeLayout>
